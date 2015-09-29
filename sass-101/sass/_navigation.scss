@@ -1,0 +1,25 @@
+nav {
+	ul {
+		display: flex;
+		justify-content: flex-end;
+		list-style: none;
+
+		li {
+			margin-left:.5em;
+
+			a {
+				padding: 1em .5em;
+				background:#000;
+				@include gradient(#000,#eee);
+				@include border-radius(8px);
+				@include shadow();
+				&:hover {
+				background: $color-link-background-hover;
+				background:#333;
+				@include gradient(#333,#fff);
+				}
+			}
+		}
+	}
+
+}
