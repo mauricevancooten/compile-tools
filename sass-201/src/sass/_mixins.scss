@@ -1,0 +1,12 @@
+@mixin shadow() {
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+}
+
+// @mixin border-radius($radius) {
+// 	border-radius: $radius;
+// }
+
+@mixin gradient($color-to,$color-from) {
+	background: -webkit-linear-gradient($color-to,$color-from);
+	background: linear-gradient($color-to,$color-from);
+}
