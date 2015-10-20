@@ -1,22 +1,23 @@
 nav {
 	ul {
 		display: flex;
-		justify-content: flex-end;
+		justify-content: flex-start;
 		list-style: none;
+		padding:0;
 
 		li {
-			margin-left:.5em;
+			margin-right:.5em;
 
 			a {
-				padding: 1em .5em;
-				background:#000;
-				@include gradient(#000,#eee);
-				@include border-radius(8px);
+				padding: .5em 1em;
+				background:#ffffff;
+				@include gradient(#fff,#eee);
+				@include border-radius(15px);
 				@include shadow();
 				&:hover {
 				background: $color-link-background-hover;
 				background:#333;
-				@include gradient(#333,#fff);
+				@include gradient(#eeeeee,#333333);
 				}
 			}
 		}

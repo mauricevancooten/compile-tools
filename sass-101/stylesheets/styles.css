@@ -1,0 +1,59 @@
+/* line 1, ../sass/_layout.scss */
+body {
+  background: #eeeeee;
+  margin: 0;
+}
+
+/* line 6, ../sass/_layout.scss */
+header,
+.container,
+footer {
+  width: 88%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* line 13, ../sass/_layout.scss */
+.wrapper {
+  padding: 1em 0;
+  background: #ffffff;
+}
+
+/* line 1, ../sass/_links.scss */
+a {
+  color: red;
+}
+/* line 3, ../sass/_links.scss */
+a:hover {
+  color: crimson;
+}
+
+/* line 2, ../sass/_navigation.scss */
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+/* line 8, ../sass/_navigation.scss */
+nav ul li {
+  margin-right: .5em;
+}
+/* line 11, ../sass/_navigation.scss */
+nav ul li a {
+  padding: .5em 1em;
+  background: #ffffff;
+  background: -webkit-linear-gradient(#fff, #eee);
+  background: linear-gradient(#ffffff, #eeeeee);
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+/* line 17, ../sass/_navigation.scss */
+nav ul li a:hover {
+  background: #333333;
+  background: #333;
+  background: -webkit-linear-gradient(#eeeeee, #333333);
+  background: linear-gradient(#eeeeee, #333333);
+}
