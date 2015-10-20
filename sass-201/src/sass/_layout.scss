@@ -1,5 +1,5 @@
 body {
-	background:pink;
+	background: $color-background;
 	margin:0;
 }
 
@@ -7,7 +7,7 @@ header,
 .container,
 footer {
 	width:88%;
-	max-width: 960px;
+	max-width: $container-width;
 	margin:0 auto;
 }
 .wrapper {
