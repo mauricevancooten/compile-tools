@@ -1,0 +1,16 @@
+body {
+	background: $color-background;
+	margin:0;
+}
+
+header,
+.container,
+footer {
+	width:88%;
+	max-width: $container-width;
+	margin:0 auto;
+}
+.wrapper {
+	padding:1em 0;
+	background: $color-background-container;
+}
