@@ -8,7 +8,7 @@ css_dir = "assets/css"
 sass_dir = "src/sass"
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
-output_style = :compact
+output_style = :expanded
 # The environment mode. Defaults to :production, can also be :development
 environment = :production
 # Chrome needs a precision of 7 to round properly
