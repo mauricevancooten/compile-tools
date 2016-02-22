@@ -1,13 +1,25 @@
 # Sass
 
-Sass 101 and Sass 201 for more advanced setup.
+Sass examples use node-sass and Eyeglass to import Sass libraries.
 
-## Sass 101
+## Dependencies
 
-This project requires the Scout App.
+Node.js
 
-See the compiling Sass through the Scout App [tutorial](http://minus.nz/articles/compiling-sass-through-the-scout-app)
+## Instructions
 
-## Sass 201
+1. Install Node modules `npm install`
+2. Compile SCSS to CSS `npm run build`
+3. Watch for changes and compile SCSS to CSS `npm run build:watch`
 
-See the compiling Sass through Compass [tutorial](http://minus.nz/articles/compiling-sass-through-compass)
+## Basic
+
+Basic Sass setup.
+
+## Singularity GS
+
+Sass setup including Sass libraries; Breakpoint and SingularityGS.
+
+## License
+
+MIT License
