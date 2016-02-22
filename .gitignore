@@ -9,7 +9,9 @@ ehthumbs.db
 Thumbs.db
 
 # SASS
-
-stylesheets
-assets
+css
 .sass-cache
+.eyeglass_cache
+
+# Node.js
+node_modules
