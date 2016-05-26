@@ -1,0 +1,13 @@
+{
+  "name": "chatrooms",
+  "version": "0.0.1",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "responsive-nav": "^1.0.39",
+    "watch": "^0.18.0"
+  },
+  "scripts": {
+    "build": "mkdir -p public/js && browserify src/js/main.js > public/js/bundle.js",
+    "build:js": "watch 'npm run build' src/js/"
+  }
+}
