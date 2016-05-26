@@ -1,0 +1,11 @@
+{
+  "name": "chatrooms",
+  "version": "0.0.1",
+  "Dependencies": {},
+  "devDependencies": {
+    "svg-sprite": "^1.2.19"
+  },
+  "scripts": {
+  	"sprite": "svg-sprite --css --css-render-css --css-dest= --css-sprite=img/sprite.svg img/*.svg"
+  }
+}
