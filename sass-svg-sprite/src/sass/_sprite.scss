@@ -1,0 +1,84 @@
+%svg-common {
+	background: url("../img/sprite-0da4bda5.svg") no-repeat;
+}
+
+.svg-facebook {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-facebook-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-flickr {
+	@extend %svg-common;
+	background-position: 50% 0;
+}
+
+.svg-flickr-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-github {
+	@extend %svg-common;
+	background-position: 0 50%;
+}
+
+.svg-github-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-googleplus {
+	@extend %svg-common;
+	background-position: 50% 50%;
+}
+
+.svg-googleplus-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-linkedin {
+	@extend %svg-common;
+	background-position: 100% 0;
+}
+
+.svg-linkedin-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-pinterest {
+	@extend %svg-common;
+	background-position: 100% 50%;
+}
+
+.svg-pinterest-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-twitter {
+	@extend %svg-common;
+	background-position: 0 100%;
+}
+
+.svg-twitter-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-youtube {
+	@extend %svg-common;
+	background-position: 50% 100%;
+}
+
+.svg-youtube-dims {
+	width: 32px;
+	height: 32px;
+}
+
