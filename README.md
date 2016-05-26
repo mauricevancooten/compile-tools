@@ -33,7 +33,7 @@ Sass configuration and setup, includes importing of Sass libraries using Eyeglas
 1. Install Node modules `npm install`
 2. Watch for changes and compile SCSS to CSS `npm run build:watch`
 
-## SVG Sprite / SASS SVG Sprite
+## SVG Sprite / Sass SVG Sprite
 
 Automated SVG spriting.
 
