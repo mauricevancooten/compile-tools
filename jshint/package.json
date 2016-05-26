@@ -1,0 +1,13 @@
+{
+  "name": "jshint-project",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.9.2",
+    "watch": "^0.18.0"
+  },
+  "scripts": {
+    "lint": "jshint js/*.js",
+    "build": "npm run lint",
+    "build:watch": "watch 'npm run build' js/"
+  }
+}
