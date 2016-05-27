@@ -1,5 +1,5 @@
 {
-  "name": "basic-sass",
+  "name": "build-tool-sass",
   "version": "0.0.1",
   "devDependencies": {
     "node-sass": "^3.4.2",
