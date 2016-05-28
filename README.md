@@ -42,9 +42,9 @@ Automated SVG spriting.
 1. Install Node modules `npm install`
 2. Build Sprite `npm run sprite`
 
-## Browserify
+## Browserify / JSHint Browserify / JSHint Browserify Minifyify
 
-Lets you require modules in the browser and bundles all your dependencies.
+Browserify lets you require modules in the browser and bundles all your dependencies. Example with JSHint lints JavaScript before bundling and the example with Minifyify compresses JavaScript after bundling and maintains a sourcemap for easier debugging in the browser.
 
 ### Instructions
 
