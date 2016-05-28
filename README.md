@@ -8,30 +8,30 @@ Nodejs
 
 ## JSHint
 
-Helps to detect errors and potential problems in your JavaScript.
+Helps to detect errors and potential problems in your JavaScript. Watches all JavaScript files for changes.
 
 ### Instructions
 
 1. Install Node modules `npm install`
-2. Lint JavaScript `npm run build:watch`
+2. Lint JavaScript `npm run build:js`
 
 ## Sass
 
-Basic Sass configuration and setup, uses node-sass to compile Sass to CSS.
+Basic Sass configuration and setup, uses node-sass to compile Sass to CSS. Watches all Sass files for changes.
 
 ### Instructions
 
 1. Install Node modules `npm install`
-2. Watch for changes and compile SCSS to CSS `npm run build:watch`
+2. Watch for changes and compile SCSS to CSS `npm run build:sass`
 
 ## Sass Singularity GS
 
-Sass configuration and setup, includes importing of Sass libraries using Eyeglass; Breakpoint and SingularityGS.
+Sass configuration and setup, includes importing of Sass libraries using Eyeglass; Breakpoint and SingularityGS. Watches all Sass files for changes.
 
 ### Instructions
 
 1. Install Node modules `npm install`
-2. Watch for changes and compile SCSS to CSS `npm run build:watch`
+2. Watch for changes and compile SCSS to CSS `npm run build:sass`
 
 ## SVG Sprite / Sass SVG Sprite
 
@@ -44,7 +44,7 @@ Automated SVG spriting.
 
 ## Browserify / JSHint Browserify / JSHint Browserify Minifyify
 
-Browserify lets you require modules in the browser and bundles all your dependencies. Example with JSHint lints JavaScript before bundling and the example with Minifyify compresses JavaScript after bundling and maintains a sourcemap for easier debugging in the browser.
+Browserify lets you require modules in the browser and bundles all your dependencies. Example with JSHint lints JavaScript before bundling and the example with Minifyify compresses JavaScript after bundling and maintains a sourcemap for easier debugging in the browser. Watches all JavaScript files for changes.
 
 ### Instructions
 

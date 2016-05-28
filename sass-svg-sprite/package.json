@@ -13,7 +13,7 @@
   "scripts": {
     "build:css": "mkdir -p public/css && node scripts/eyeglass.js",
     "build": "npm run build:css",
-    "build:watch": "watch 'npm run build' src/sass/",
+    "build:sass": "watch 'npm run build' src/sass/",
     "sprite": "svg-sprite --css --css-render-scss --css-render-scss-dest=../src/sass/_sprite.scss --css-sprite=../img/sprite.svg src/img/*.svg && mv img public/"
   }
 }

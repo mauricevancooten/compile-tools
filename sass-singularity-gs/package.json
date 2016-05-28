@@ -12,6 +12,6 @@
   "scripts": {
     "build:css": "mkdir -p css && node scripts/eyeglass.js",
     "build": "npm run build:css",
-    "build:watch": "watch 'npm run build' sass/"
+    "build:sass": "watch 'npm run build' sass/"
   }
 }

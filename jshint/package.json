@@ -8,6 +8,6 @@
   "scripts": {
     "lint": "jshint js/*.js",
     "build": "npm run lint",
-    "build:watch": "watch 'npm run build' js/"
+    "build:js": "watch 'npm run build' js/"
   }
 }
