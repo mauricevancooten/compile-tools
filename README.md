@@ -51,6 +51,15 @@ Browserify lets you require modules in the browser and bundles all your dependen
 1. Install Node modules `npm install`
 2. Build JavaScript `npm run build:js`
 
+## Livereload
+
+Livereload updates the browser automatically every time you save a change to your project files.
+
+### Instructions
+
+1. Install Node modules `npm install`
+2. Build JavaScript `npm run livereload`
+
 ## License
 
 MIT License

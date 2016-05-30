@@ -1,0 +1,10 @@
+{
+  "name": "build-tool-livereload",
+  "version": "0.0.1",
+  "devDependencies": {
+    "livereload": "^0.4.1"
+  },
+  "scripts": {
+    "livereload": "livereload ."
+  }
+}
