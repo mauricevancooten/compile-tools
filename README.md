@@ -51,6 +51,15 @@ Browserify lets you require modules in the browser and bundles all your dependen
 1. Install Node modules `npm install`
 2. Build JavaScript `npm run build:js`
 
+## Critical
+
+Critical extracts & inlines critical-path (above-the-fold) CSS from HTML.
+
+### Instructions
+
+1. Install Node modules `npm install`
+2. Build JavaScript `npm run critical`
+
 ## License
 
 MIT License

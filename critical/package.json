@@ -1,0 +1,10 @@
+{
+  "name": "build-tool-critical",
+  "version": "0.0.1",
+  "devDependencies": {
+    "critical": "^0.7.2"
+  },
+  "scripts":{
+  	"critical":"cat index.html | critical --inline --minify > index.critical.html"
+  }
+}
