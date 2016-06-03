@@ -58,8 +58,19 @@ Critical extracts & inlines critical-path (above-the-fold) CSS from HTML.
 ### Instructions
 
 1. Install Node modules `npm install`
+
 2. Build JavaScript `npm run critical`
 
-## License
+## Livereload
 
-MIT License
+Livereload updates the browser automatically every time you save a change to your project files.
+
+### Instructions
+
+1. Install Node modules `npm install`
+
+2. Build JavaScript `npm run livereload`
+
+## Licence
+
+Licensed under MIT Licence
