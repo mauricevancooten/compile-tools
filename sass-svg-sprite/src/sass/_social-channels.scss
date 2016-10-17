@@ -1,0 +1,23 @@
+.social-channels {
+	list-style:none;
+	padding:0;
+}
+
+.social-channels li {
+	display: inline-block;
+	margin-right: .5em;
+}
+
+.social-channels a {
+	display:block;
+	border-radius:3px;
+	/* Hide text */
+	text-indent: 110%;
+	white-space:no-wrap;
+	overflow:hidden;
+	transition: all .2s ease-in-out;
+}
+
+.social-channels a:hover {
+	opacity:0.7;
+}
