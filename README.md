@@ -61,15 +61,15 @@ Critical extracts & inlines critical-path (above-the-fold) CSS from HTML.
 
 2. Build JavaScript `npm run critical`
 
-## Livereload
+## Browser-sync
 
-Livereload updates the browser automatically every time you save a change to your project files.
+Browser-sync updates the browser automatically every time you save a change to your project files.
 
 ### Instructions
 
 1. Install Node modules `npm install`
 
-2. Build JavaScript `npm run livereload`
+2. Sync browser `npm run browser-sync`
 
 ## Licence
 
