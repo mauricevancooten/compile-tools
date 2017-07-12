@@ -7,9 +7,8 @@
     "watch": "^0.17.1"
   },
   "scripts": {
-    "compile:css": "mkdir -p public/css && node-sass --include-path scss src/sass/styles.scss public/css/styles.css",
-    "compile": "npm run compile:css",
-    "compile:sass": "watch 'npm run compile' src/sass/",
+    "sass": "mkdir -p public/css && node-sass --include-path scss src/sass/styles.scss public/css/styles.css",
+    "compile:css": "watch 'npm run sass' src/sass/",
     "sprite": "svg-sprite --css --css-render-scss --css-render-scss-dest=../src/sass/_sprite.scss --css-sprite=../img/sprite.svg src/img/*.svg && mv img public/img/"
   }
 }

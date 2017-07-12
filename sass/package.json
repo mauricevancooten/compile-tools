@@ -6,8 +6,7 @@
     "watch": "^0.17.1"
   },
   "scripts": {
-    "compile:css": "node-sass --include-path scss sass/styles.scss css/styles.css",
-    "compile": "npm run compile:css",
-    "compile:sass": "watch 'npm run compile' sass/"
+    "sass": "node-sass --include-path scss sass/styles.scss css/styles.css",
+    "compile:css": "watch 'npm run sass' sass/"
   }
 }
