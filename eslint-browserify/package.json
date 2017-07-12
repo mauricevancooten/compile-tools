@@ -1,0 +1,16 @@
+{
+  "name": "compile-tool-browserify",
+  "version": "0.0.1",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "eslint": "^3.19.0",
+    "responsive-nav": "^1.0.39",
+    "watch": "^0.18.0"
+  },
+  "scripts": {
+    "lint": "eslint src/js/",
+    "precompile": "npm run lint",
+    "compile": "mkdir -p public/js && browserify src/js/main.js > public/js/bundle.js",
+    "compile:js": "watch 'npm run compile' src/js/"
+  }
+}
