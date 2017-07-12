@@ -1,0 +1,13 @@
+{
+  "name": "compile-tool-eslint",
+  "version": "0.0.1",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "watch": "^0.18.0"
+  },
+  "scripts": {
+    "lint": "eslint js/*.js",
+    "compile": "npm run lint",
+    "compile:js": "watch 'npm run compile' js/"
+  }
+}
