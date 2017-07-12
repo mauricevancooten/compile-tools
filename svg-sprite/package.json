@@ -1,5 +1,5 @@
 {
-  "name": "build-tool-svg-sprite",
+  "name": "compile-tool-svg-sprite",
   "version": "0.0.1",
   "Dependencies": {},
   "devDependencies": {

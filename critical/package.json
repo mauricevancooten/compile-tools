@@ -1,5 +1,5 @@
 {
-  "name": "build-tool-critical",
+  "name": "compile-tool-critical",
   "version": "0.0.1",
   "devDependencies": {
     "critical": "^0.7.2"

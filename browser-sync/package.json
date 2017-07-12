@@ -1,5 +1,5 @@
 {
-  "name": "build-tool-browser-sync",
+  "name": "compile-tool-browser-sync",
   "version": "0.0.1",
   "devDependencies": {
     "browser-sync": "^2.17.3"
