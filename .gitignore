@@ -12,6 +12,7 @@ Thumbs.db
 css
 .sass-cache
 .eyeglass_cache
+sass-singularity-gs
 
 # Node.js
 node_modules
