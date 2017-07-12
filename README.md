@@ -24,15 +24,6 @@ Basic Sass configuration and setup, uses node-sass to compile Sass to CSS. Watch
 1. Install Node modules `npm install`
 2. Watch for changes and compile SCSS to CSS `npm run compile:sass`
 
-## Sass Singularity GS
-
-Sass configuration and setup, includes importing of Sass libraries using Eyeglass; Breakpoint and SingularityGS. Watches all Sass files for changes.
-
-### Instructions
-
-1. Install Node modules `npm install`
-2. Watch for changes and compile SCSS to CSS `npm run compile:sass`
-
 ## SVG Sprite / Sass SVG Sprite
 
 Automated SVG spriting.
